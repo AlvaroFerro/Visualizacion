@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543230216401.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2604541519",
+    "id" : "53F22D59",
+    "lastKnownWriteTime" : 1543152193,
+    "last_content_update" : 1543152193,
+    "path" : "C:/Users/frank/OneDrive/CUNEF - MDS/Técnicas de Visualización en DS/Shiny04/dashboard/ui.R",
+    "project_path" : "dashboard/ui.R",
+    "properties" : {
+        "cursorPosition" : "24,68",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543230986866.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3262835556",
+    "id" : "1AC08919",
+    "lastKnownWriteTime" : 1543229742,
+    "last_content_update" : 1543229742,
+    "path" : "C:/Users/frank/OneDrive/CUNEF - MDS/Técnicas de Visualización en DS/Shiny04/marta/server.R",
+    "project_path" : "marta/server.R",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

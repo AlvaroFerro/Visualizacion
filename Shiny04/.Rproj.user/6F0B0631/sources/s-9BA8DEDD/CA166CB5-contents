@@ -1,0 +1,53 @@
+library(httr)
+library(jsonlite)
+library(ggplot2)
+library(highcharter)
+devtools::install_github("blairj09/cryptor")
+library(cryptor)
+
+############## RECOPILACION DE URLS ###################
+
+
+url <- 'https://min-api.cryptocompare.com/data/histoday?fsym=BTC&tsym=USD&limit=30&aggregate=3&e=CCCAGG&api_key=3a337e6b55620a6e302864894446c47bfe7ae0be1dc4d96d6a706ae3df528afc'
+
+sesion <- GET('https://min-api.cryptocompare.com/data/pricemulti?fsyms=ETH,DASH&tsyms=BTC,USD,EUR&api_key=3a337e6b55620a6e302864894446c47bfe7ae0be1dc4d96d6a706ae3df528afc')
+sesion$status_code
+
+BC <- 'https://api.blockchain.info/stats'
+BC$start
+
+block <- GET('https://api.blockchain.info/charts/total_bitcoins?timespan=5weeks&rollingAverage=8hours&format=json')
+block$headers$`content-type`
+
+names(block)
+
+as.data.frame(fromJSON(BC))
+text_contet <- content(block, as = 'text', encoding = 'UTF-8')
+text_contet %>% fromJSON()
+
+names(sesion)
+sesion$con
+
+df <- fromJSON(url)
+as.data.frame(df)
+
+exchanges <- get_exchanges()
+exchanges
+
+head(get_coins())
+get_api_limit()
+
+exchanges$coin[55]
+
+get_historical_price('BTC', 'USD', all_data = T, aggregate = 2)
+
+as.data.frame(get_price(c('BTC', 'ETH', 'XRP', 'EOS', 'LTC'), 'EUR'))
+
+ggplot(df2) + geom_point(aes(time, close)) + geom_smooth(aes(time, close)) + geom_contour(aes(time, close, low))
+
+hchart(density(mtcars$mpg, mtcars$cyl), type = 'area', color = 'red', name = 'MPG')
+
+
+myJSON <- fromJSON("C:/Users/frank/OneDrive/CUNEF - MDS/Técnicas de Visualización en DS/Shiny04/html/info.JSON")
+myJSON$appinfo$widget$type
+myJSON$appinfo$widget$mainUrl
