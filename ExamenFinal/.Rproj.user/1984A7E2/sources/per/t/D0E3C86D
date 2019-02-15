@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550251059946.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4124324215",
+    "id" : "D0E3C86D",
+    "lastKnownWriteTime" : 1550259974,
+    "last_content_update" : 1550259974378,
+    "path" : "E:/OneDrive/GitProjects/Visualizacion/ExamenFinal/ExamenFinal/server.R",
+    "project_path" : "ExamenFinal/server.R",
+    "properties" : {
+        "cursorPosition" : "7,31",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

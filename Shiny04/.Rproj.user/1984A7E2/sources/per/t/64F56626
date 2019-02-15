@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550246712549.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2477093014",
+    "id" : "64F56626",
+    "lastKnownWriteTime" : 1543230051,
+    "last_content_update" : 1543230051,
+    "path" : "E:/OneDrive/GitProjects/Visualizacion/Shiny04/marta/ui.R",
+    "project_path" : "marta/ui.R",
+    "properties" : {
+        "cursorPosition" : "9,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
